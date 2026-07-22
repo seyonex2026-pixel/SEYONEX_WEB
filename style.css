@@ -797,6 +797,8 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
     .process-sticky { padding: 5.5rem 20px 4rem; }
     .process-intro h2 { max-width: 370px; font-size: clamp(2.55rem, 12vw, 3.5rem); }
     .process-intro > p:last-child { font-size: 0.94rem; }
+    .process-progress { top: auto; right: auto; width: 100%; margin-top: 2rem; }
+    .process-progress p { gap: 1rem; font-size: 0.56rem; letter-spacing: 0.08em; white-space: nowrap; }
     .process-blueprint { margin-top: 3rem; }
     .blueprint-stages { grid-template-columns: 1fr; border-bottom: 0; }
     .blueprint-flow { top: 0; right: auto; bottom: 0; left: 0; width: 2px; height: auto; }
